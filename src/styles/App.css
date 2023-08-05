@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+#main{
+    width: 100vw;
+    background-color: #e5eef4;
+    display: flex;
+    justify-content: center;
+    padding: 6.5rem 0 0 0;
+}
+.routes{
+    /* background-color: red; */
+    /* width: 84.34rem; */
+    /* display: flex;
+    justify-content: center; */
+}

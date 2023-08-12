@@ -2,11 +2,18 @@ body{
     margin: 0;
 }
 #main{
-    width: 100vw;
-    background-color: #e5eef4;
+    /* width: 100vw; */
+    /* background-color: #e5eef4; */
+    width: 100%;
+    background-color: green;
     display: flex;
     justify-content: center;
     padding: 6.5rem 0 0 0;
+}
+.main{
+    width: 90%;
+    margin: 0 auto;
+    overflow-y: hidden;
 }
 .routes{
     /* background-color: red; */

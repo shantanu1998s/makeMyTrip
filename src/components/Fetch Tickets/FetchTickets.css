@@ -1,5 +1,5 @@
 .fetch-tickets{
-    width: 75rem;
+    width: 90%;
     padding: 2rem 3rem;
     margin-bottom: 3rem;
     box-sizing: border-box;
@@ -13,6 +13,7 @@
     justify-content: space-between;
     position: relative;
     transition: 250ms;
+    flex-wrap: wrap;
 }
 .fetch-tickets:hover{
     background-color: #eaf5ff;

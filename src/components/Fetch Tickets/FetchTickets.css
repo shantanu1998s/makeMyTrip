@@ -31,7 +31,7 @@
     font-size: 22px;
     font-weight: normal;
 }
-#book-btn{
+#book-btn {
     width: 12rem;
     height: 2.5rem;
     padding: 8px;
@@ -49,10 +49,15 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: -7%;
-    left: 31.5rem;
+    /* bottom: -7%; */
+    /* left: 31.5rem; */
     cursor: pointer;
+    right: 0px;
+    margin: 0 auto;
+    left: 0px;
+    bottom: 0px;
     transition: 250ms;
+    transform: translateY(50%);
 }
 #book-btn:hover{
     transform: scale(1.05);

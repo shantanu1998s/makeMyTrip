@@ -1,5 +1,5 @@
 .header2{
-    width: 100vw;
+    width: 100%;
     height: 4rem;
     background-color: white;
     box-shadow: 0px 0px 10px black;
@@ -73,4 +73,11 @@
 }
 .user-profile2:active{
     box-shadow: none;
+}
+
+@media  screen and (max-width:1060px) {
+    .logo2 {
+        height: 1.5rem;
+        margin-left: 10px;
+    }
 }

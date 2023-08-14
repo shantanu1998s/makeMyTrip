@@ -139,7 +139,7 @@
     margin: 0;
     padding-left:1rem;
     padding-top: 0.8rem;
-    width: 15rem;
+    width: 50%;
     height: 5.1rem;
     background-color: inherit;
     position: relative;
@@ -150,7 +150,7 @@
     position: absolute;
     color: rgba(255, 255, 255, 0);
     background-color: inherit;
-    width: 17.71rem;
+    /* width: 17.71rem; */
     height: 5.1rem;
     top: 0;
     left: 0;
@@ -228,6 +228,9 @@
         transition: 500ms;
         display: flex;
         width: 100%;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
     }
     .departure-display p, .return-display p, .check-in-display p, .check-out-display p {
         box-sizing: border-box;
@@ -240,6 +243,7 @@
         z-index: 1;
         transition: 500ms;
         flex: 1 1 125px;
+        position: absolute;
     }
     .departure-display input, .return-display input, .check-in-display input, .check-out-display input {
         color: rgba(255, 255, 255, 0);
@@ -251,6 +255,7 @@
     }
     .trip-details-input, .room-details-input{
         margin: 0 auto;
+        width: 100%;
     }
     #search-btn{
         bottom : -4%;

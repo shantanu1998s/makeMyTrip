@@ -27,7 +27,8 @@ const Modal=({type})=>{
 
                     {
                         type === 'notLogedIn'  &&
-                        <section className='notLogedIn-modal'>You are not Logged In yet.
+                        <section className='notLogedIn-modal'>
+                          <h5>You are not Logged In yet.</h5>
                             <button id='login-btn' onClick={logIn}>Log In</button>
                         </section>
                     }

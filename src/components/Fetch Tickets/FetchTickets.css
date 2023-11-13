@@ -59,9 +59,10 @@
     transition: 250ms;
     transform: translateY(50%);
 }
-/* #book-btn:hover{
+
+#book-btn:hover{
     transform: scale(1.05);
 }
 #book-btn:active{
     transform: scale(1);
-} */
+}
